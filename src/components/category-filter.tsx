@@ -16,11 +16,11 @@ export const CategoryFilter: React.FC<CategoryFilterProps> = ({
   onSelectCategory,
 }) => {
   const categories = [
-    { key: "all", label: "All Products", icon: "lucide:grid" },
-    { key: "vegetables", label: "Vegetables", icon: "lucide:carrot" },
-    { key: "fruits", label: "Fruits", icon: "lucide:apple" },
-    { key: "dairy", label: "Dairy", icon: "lucide:milk" },
-    { key: "herbs", label: "Herbs", icon: "lucide:flower" },
+    { key: "all", label: "todos los productos", icon: "lucide:grid" },
+    { key: "vegetables", label: "Vegetales", icon: "lucide:carrot" },
+    { key: "fruits", label: "Frutas", icon: "lucide:apple" },
+    { key: "dairy", label: "Raices", icon: "lucide:leafy-green" },
+    { key: "herbs", label: "Hierbas", icon: "lucide:flower" },
   ];
 
   return (
